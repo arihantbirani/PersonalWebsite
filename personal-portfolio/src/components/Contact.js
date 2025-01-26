@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/email-7598.svg"; // Updated import
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -101,5 +101,6 @@ export const Contact = () => {
     </section>
   );
 };
+
 
 
