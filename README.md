@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# web-dev-projects
-=======
-
->>>>>>> new-origin/main
+Personal Portfolio Project
