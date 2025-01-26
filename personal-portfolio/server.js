@@ -7,8 +7,15 @@ const nodemailer = require("nodemailer");
 const app = express();
 const PORT = process.env.PORT || 5001;
 
+const corsOptions = {
+  origin: "*", // Allows requests from all origins (use specific URLs for more security)
+  methods: ["GET", "POST"],
+  allowedHeaders: ["Content-Type"],
+};
+app.use(cors(corsOptions));
+
+
 // Middleware
-app.use(cors());
 app.use(helmet());
 app.use(express.json());
 
