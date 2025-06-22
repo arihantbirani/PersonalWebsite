@@ -15,7 +15,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Arihant!`}</h1>
-                  <p>I'm a 3rd year CS major and Math minor @ Georgia Tech with concentrations in Artificial Intelligence and Infonetworks. Check out some of my work below!</p>
+                  <p>I'm a rising 4th year CS major and Math minor @ Georgia Tech with concentrations in Artificial Intelligence and Infonetworks. Check out some of my work below!</p>
                 </div>
               }
             </TrackVisibility>
