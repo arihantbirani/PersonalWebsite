@@ -13,7 +13,7 @@ export const Skills = () => {
               </p>
               {/* Embedded PDF */}
               <iframe
-                src="/Arihant_Birani_Resume.pdf"
+                src="/AB.pdf"
                 width="100%"
                 height="800px"
                 style={{ border: "none", borderRadius: "10px" }}
