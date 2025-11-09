@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// Removed unused: import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Analytics } from '@vercel/analytics/react';
@@ -24,3 +24,4 @@ function App() {
 }
 
 export default App;
+
